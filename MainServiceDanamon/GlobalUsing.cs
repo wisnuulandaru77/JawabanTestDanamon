@@ -1,0 +1,12 @@
+﻿global using Microsoft.EntityFrameworkCore;
+global using MainServiceDanamon;
+global using MainServiceDanamon.Models.Tables;
+global using Microsoft.EntityFrameworkCore.Metadata.Builders;
+global using MainServiceDanamon.Services;
+global using Microsoft.AspNetCore.Mvc;
+global using MainServiceDanamon.Models.Dtos;
+global using System.ComponentModel.DataAnnotations;
+global using RabbitMQ.Client;
+global using System.Text.Json;
+global using System.Text;
+global using RabbitMQ.Client.Events;
