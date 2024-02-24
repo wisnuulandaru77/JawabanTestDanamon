@@ -21,8 +21,8 @@ public class Test01Service(ApplicationDbContext applicationDbContext) : ITest01S
         {
             Nama = reqCreateTest01DTO.Nama,
             Status = reqCreateTest01DTO.Status,
-            Created = DateTime.Now,
-            Updated = DateTime.Now
+            Created = DateTime.UtcNow,
+            Updated = DateTime.UtcNow
         };
 
         await applicationDbContext.AddAsync(test01);
